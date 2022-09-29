@@ -496,6 +496,14 @@ header nav a .btn{
     font-weight: 600;
 }
 
+#checkbox{
+    display: none;
+}
+
+.fa-bars{
+    display: none;
+}
+
 @media screen and (max-width:768px)
 {
     html{
@@ -626,14 +634,14 @@ header nav a .btn{
         padding: 1rem 0;
     }
 
-    #checkbox{
-        display: none;
-    }
-
     .fa-bars{
         font-size: 2.5rem;
         position: fixed;
         z-index: 3;
         right: 1rem;
+    }
+
+    .fa-bars{
+        display: inline-block;
     }
 }
